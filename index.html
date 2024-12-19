@@ -7,22 +7,22 @@
     <title>Grupo Azahara</title>
 </head>
 <body>
+
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#about">GRUPO AZAHARA</a></li>
+                <li><a href="#projects">PROYECTOS</a></li>
+                <li><a href="#footer">CONTACTO</a></li>
+            </ul>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+    </nav>
+
     <section id="header">
-        <nav>
-            <div class="nav-links" id="navLinks">
-                <ul>
-                    <li><a href="">INICIO</a></li>
-                    <li><a href="#about">GRUPO AZAHARA</a></li>
-                    <li><a href="#projects">PROYECTOS</a></li>
-                    <li><a href="#Eventos">SERVICIOS</a></li>
-                    <li><a href="#footer">CONTACTO</a></li>
-                </ul>
-            </div>
-            <div class="hamburger" onclick="toggleMenu()">
-                &#9776;
-            </div>
-        </nav>
-    
         <div class="text-box">
             <h1><b>GRUPO AZAHARA</b></h1>
             <h2>“Tu vivienda de confianza”</h2>
@@ -30,43 +30,150 @@
             <a href="#about"><button class="btn">Saber más</button></a>
         </div>
     </section>
+    
 
     <section id="about">
-        <div class="about-container">
+        <h2 class="about-title">Grupo Azahara</h2>
+        <div class="about-container impar">
             <div class="about-image">
                 <img src="./assets/img/logo.jpeg" alt="Sobre nosotros">
             </div>
             <div class="about-text">
-                <h2>Grupo Azahara</h2>
                 <p>
-                Somos una empresa dedicada a brindar soluciones innovadoras y personalizadas para satisfacer las necesidades de nuestros clientes. Nos apasiona la calidad y la excelencia en cada proyecto.
+                Somos una empresa dedicada a brindar soluciones innovadoras y 
+                personalizadas para satisfacer las necesidades de nuestros clientes. 
+                Nos apasiona la calidad y la excelencia en cada proyecto.
                 </p>
                 <p>
-                Con años de experiencia y un equipo profesional, trabajamos para convertir ideas en realidad y alcanzar resultados sobresalientes.
+                Con años de experiencia y un equipo profesional, trabajamos 
+                para convertir ideas en realidad y alcanzar resultados 
+                sobresalientes.
                 </p>
             </div>
         </div>
+        <div class="about-container par">
+            <div class="about-text">
+                <p>
+                    Hemos realizado desde nuestros inicios mas de 500
+                    viviendas de todas las Tipologías: villas, adosados,
+                    pareados, poblado mediterráneo, bloques de
+                    altura…; aunque también realizamos puntualmente
+                    otros proyectos: urbanizaciones, naves y centro de
+                    negocios.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="./assets/img/foto1.jpeg" alt="Sobre nosotros">
+            </div>
+        </div>
+        <div class="about-container impar">
+            <div class="about-image">
+                <img src="./assets/img/foto2.jpeg" alt="Sobre nosotros">
+            </div>
+            <div class="about-text">
+                <p>
+                    Desde que nuestro departamento de captación de
+                    suelo adquiere un solar, nosotros nos encargamos
+                    de diseñar el mejor proyecto y lo ejecutamos a los
+                    precios mas razonables.
+                </p>
+            </div>
+            
+        </div>
+        <div class="about-container par">
+            <div class="about-text">
+                <p>
+                    Nuestra principal habilidad es la planificación, el
+                    control de costes y la consecución de objetivos,
+                    preocupándonos especialmente por los detalles y la
+                    calidad de las terminaciones.
+                </p>
+                <br>
+                <h3>
+                    Grupo Azahara no tiene límites. Nos pueden poner a
+                    prueba…
+                </h3>
+            </div>
+            <div class="about-image">
+                <img src="./assets/img/foto3.jpeg" alt="Sobre nosotros">
+            </div>
+        </div>
     </section>
+
+    <section id="projects">
+        <h2 class="projects-title">Nuestros Proyectos</h2>
+        <div class="grid">
+          <div class="card">
+            <img src="./assets/img/edificio_marbella.png" alt="Project 1">
+            <p>EDIFICIO DE VIVIENDAS EN MARBELLA, MÁLAGA (2001)
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/img/edificio_80_viviendas.png" alt="Project 2">
+            <p>EDIFICIO DE 80 VIVIENDAS, FASE 1 EN MARBELLA, MÁLAGA (1999)</p>
+          </div>
+          <div class="card">
+            <img src="./assets/img/edificio_80_viviendas_2.png" alt="Project 3">
+            <p>EDIFICIO DE 80 VIVIENDAS, FASE 2 EN MARBELLA, MÁLAGA (2000)</p>
+          </div>
+          <div class="card">
+            <img src="./assets/img/residencial_mediterraneo.png" alt="Project 4">
+            <p>RESIDENCIAL MEDITERRÁNEO EN ESTEPONA, MÁLAGA (2001)</p>
+          </div>
+          <div class="card">
+            <img src="./assets/img/villas_marbella.png" alt="Project 5">
+            <p>VILLA EN MARBELLA, MÁLAGA (2004)</p>
+          </div>
+          <div class="card">
+            <img src="./assets/img/villa_marbella_2.png" alt="Project 6">
+            <p>VILLA EN MARBELLA, MÁLAGA (2002)</p>
+          </div>
+          <div class="card">
+            <img src="./assets/img/villa_marbella_3.png" alt="Project 7">
+            <p>VILLA EN MARBELLA, MÁLAGA (2016)</p>
+          </div>
+          <div class="card">
+            <img  src="./assets/img/villa_piscina.png" alt="Project 8">
+            <p>VILLA EN MARBELLA, MÁLAGA (2016)</p>
+          </div>
+          <div class="card">
+            <img src="./assets/img/villas_benahavis.png" alt="Project 9">
+            <p>VILLA EN BENAHAVIS, MÁLAGA (2014)</p>
+          </div>
+          <div class="card">
+            <img  src="./assets/img/residencial_mediterraneo_2.png" alt="Project 10">
+            <p>RESIDENCIAL MEDITERRÁNEO EN MARBELLA, MÁLAGA (2000)</p>
+          </div>
+          <div class="card">
+            <img  src="./assets/img/casa_sp.png" alt="Project 11">
+            <p>VILLA EN MARBELLA, MÁLAGA (2002)</p>
+          </div>
+          <div class="card">
+            <img src="./assets/img/villa_piscina_marbella.png" alt="Project 12">
+            <p>VILLA EN MARBELLA, MÁLAGA (2022)</p>
+          </div>
+        </div>
+      </section>
 
     <section id="footer">
         <footer>
             <div class="footer-container">
                 <div class="footer-section contact">
                     <h3>Contacto</h3>
-                    <p>Email: grupoazahara@gmail.com</p>
-                    <p>Teléfono: +34 600 123 456</p>
+                    <p>Email: info@grupoazahara.com</p>
                 </div>
                 <div class="footer-section creator">
                     <h3>Creado por</h3>
-                    <a href=""><p>Chito</p></a>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/ignacio-l%C3%A1zaro-zambrano-2308392b6/" target="_blank">Chito</a></li>
+                    </ul>
                     
                 </div>
                 <div class="footer-section navigation">
                     <ul>
-                        <li><a href="#header">INICIO</a></li>
+                        <li><a href="#">INICIO</a></li>
                         <li><a href="#about">GRUPO AZAHARA</a></li>
                         <li><a href="#projects">PROYECTOS</a></li>
-                        <li><a href="#servicios">SERVICIOS</a></li>
                         <li><a href="#footer">CONTACTO</a></li>
                     </ul>
                 </div>
