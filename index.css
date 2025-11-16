@@ -434,11 +434,34 @@ nav img {
 
 
 footer {
-    background-color: #111;
+    background: linear-gradient(135deg, #1a1a1a 0%, #353535 50%, #0a0a0a 100%);
     color: #fff;
     padding: 40px 0;
     font-family: 'Arial', sans-serif;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ffffff, transparent);
+    animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
 }
 
 .footer-container {
